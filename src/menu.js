@@ -7,6 +7,7 @@ function pageLoadMenu() {
     content.appendChild(wrapper)
 
     const titulo = document.createElement('h1')
+    titulo.classList.add('text-center')
     titulo.textContent = 'Menu'
     wrapper.appendChild(titulo)
 

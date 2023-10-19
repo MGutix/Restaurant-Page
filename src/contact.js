@@ -3,6 +3,7 @@ function pageLoadContact() {
 
     const wrapper = document.createElement('div')
     wrapper.setAttribute('id', 'wrapper')
+    wrapper.classList.add('text-center')
     content.appendChild(wrapper)
 
 
@@ -16,7 +17,7 @@ function pageLoadContact() {
     wrapper.appendChild(imagen)
 
     const parrafo = document.createElement('p')
-    parrafo.textContent = 'Llamame bb'
+    parrafo.textContent = '+54 9 11 5436 1206'
     wrapper.appendChild(parrafo)
 
 }

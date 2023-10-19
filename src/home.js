@@ -3,6 +3,9 @@ function pageLoadHome() {
 
     const wrapper = document.createElement('div')
     wrapper.setAttribute('id', 'wrapper')
+    wrapper.classList.add('text-center')
+    wrapper.classList.add('col-md')
+    wrapper.classList.add('container')
     content.appendChild(wrapper)
 
     const titulo = document.createElement('h1')
