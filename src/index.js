@@ -4,14 +4,18 @@ import pageLoadContact from "./contact";
 
 
 
-
-//crear nav bar + event listener => HIDE/DELETE EVERYTHING & load clicked page
-
 pageLoadHome();
 
 const home = document.getElementById('home')
 const menu = document.getElementById('menu')
 const contact = document.getElementById('contact')
+const logo = document.getElementById('logo')
+
+logo.addEventListener('click', () => {
+    const wrapper = document.getElementById('wrapper')
+    wrapper.remove();
+    pageLoadHome();
+})
 
 
 
